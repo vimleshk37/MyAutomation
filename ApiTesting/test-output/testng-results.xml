@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="100" passed="0" failed="100" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-01T20:21:44 IST" name="Suite" finished-at="2024-11-01T20:22:26 IST" duration-ms="41855">
+  <suite started-at="2024-11-02T21:30:49 IST" name="Default suite" finished-at="2024-11-02T21:32:14 IST" duration-ms="85151">
     <groups>
     </groups>
-    <test started-at="2024-11-01T20:21:44 IST" name="Test" finished-at="2024-11-01T20:22:26 IST" duration-ms="41855">
+    <test started-at="2024-11-02T21:30:49 IST" name="Default test" finished-at="2024-11-02T21:32:14 IST" duration-ms="85151">
       <class name="apiTestCases.RL3PLApi">
-        <test-method is-config="true" signature="getAuthorization()[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:44 IST" name="getAuthorization" finished-at="2024-11-01T20:21:49 IST" duration-ms="4765" status="PASS">
+        <test-method is-config="true" signature="getAuthorization()[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:30:49 IST" name="getAuthorization" finished-at="2024-11-02T21:30:54 IST" duration-ms="4755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAuthorization -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:51 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:52 IST" duration-ms="817" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:30:55 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:40 IST" duration-ms="44958" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:52 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:52 IST" duration-ms="359" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:40 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:41 IST" duration-ms="701" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:52 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:52 IST" duration-ms="376" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:41 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:42 IST" duration-ms="534" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -143,7 +143,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:52 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:53 IST" duration-ms="402" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:42 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:42 IST" duration-ms="344" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -187,7 +187,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:53 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:53 IST" duration-ms="385" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:42 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:42 IST" duration-ms="435" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -231,7 +231,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:53 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:54 IST" duration-ms="347" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:42 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:43 IST" duration-ms="385" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -275,7 +275,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:54 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:54 IST" duration-ms="350" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:43 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:43 IST" duration-ms="374" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -319,7 +319,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:54 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:54 IST" duration-ms="357" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:43 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:43 IST" duration-ms="318" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -363,7 +363,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:54 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:55 IST" duration-ms="352" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:43 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:44 IST" duration-ms="295" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -407,7 +407,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:55 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:55 IST" duration-ms="323" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:44 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:44 IST" duration-ms="323" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -451,7 +451,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:55 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:55 IST" duration-ms="320" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:44 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:44 IST" duration-ms="317" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -495,7 +495,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:55 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:56 IST" duration-ms="350" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:44 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:45 IST" duration-ms="385" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -539,7 +539,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:56 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:56 IST" duration-ms="344" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:45 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:45 IST" duration-ms="322" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -583,7 +583,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:56 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:56 IST" duration-ms="341" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:45 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:46 IST" duration-ms="437" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -627,7 +627,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:56 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:57 IST" duration-ms="442" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:46 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:46 IST" duration-ms="312" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -671,7 +671,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:57 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:57 IST" duration-ms="333" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:46 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:46 IST" duration-ms="333" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -715,7 +715,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:57 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:58 IST" duration-ms="370" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:46 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:46 IST" duration-ms="294" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -759,7 +759,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:58 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:58 IST" duration-ms="371" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:46 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:47 IST" duration-ms="346" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -803,7 +803,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:58 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:58 IST" duration-ms="328" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:47 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:47 IST" duration-ms="411" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -847,7 +847,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:58 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:59 IST" duration-ms="325" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:47 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:48 IST" duration-ms="366" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -891,7 +891,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:59 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:59 IST" duration-ms="351" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:48 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:48 IST" duration-ms="287" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -935,7 +935,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:59 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:21:59 IST" duration-ms="333" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:48 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:48 IST" duration-ms="464" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -979,7 +979,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:21:59 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:00 IST" duration-ms="312" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:48 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:49 IST" duration-ms="291" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1023,7 +1023,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:00 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:00 IST" duration-ms="318" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:49 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:49 IST" duration-ms="286" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1067,7 +1067,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:00 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:00 IST" duration-ms="322" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:49 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:49 IST" duration-ms="308" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1111,7 +1111,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:00 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:01 IST" duration-ms="320" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:49 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:50 IST" duration-ms="280" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1155,7 +1155,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:01 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:01 IST" duration-ms="464" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:50 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:50 IST" duration-ms="323" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1199,7 +1199,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:01 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:01 IST" duration-ms="336" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:50 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:50 IST" duration-ms="302" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1243,7 +1243,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:01 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:02 IST" duration-ms="377" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:50 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:50 IST" duration-ms="302" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1287,7 +1287,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:02 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:02 IST" duration-ms="340" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:50 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:51 IST" duration-ms="295" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1331,7 +1331,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:02 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:03 IST" duration-ms="386" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:51 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:51 IST" duration-ms="329" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1375,7 +1375,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:03 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:03 IST" duration-ms="370" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:51 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:51 IST" duration-ms="346" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1419,7 +1419,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:03 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:03 IST" duration-ms="325" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:51 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:52 IST" duration-ms="333" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1463,7 +1463,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:03 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:04 IST" duration-ms="341" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:52 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:52 IST" duration-ms="303" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1507,7 +1507,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:04 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:04 IST" duration-ms="325" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:52 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:52 IST" duration-ms="283" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1551,7 +1551,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:04 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:04 IST" duration-ms="336" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:52 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:53 IST" duration-ms="354" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1595,7 +1595,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:04 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:05 IST" duration-ms="340" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:53 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:53 IST" duration-ms="290" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1639,7 +1639,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:05 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:05 IST" duration-ms="345" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:53 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:53 IST" duration-ms="302" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1683,7 +1683,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:05 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:05 IST" duration-ms="328" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:53 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:54 IST" duration-ms="321" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1727,7 +1727,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:05 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:06 IST" duration-ms="332" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:54 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:54 IST" duration-ms="332" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1771,7 +1771,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:06 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:06 IST" duration-ms="351" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:54 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:54 IST" duration-ms="309" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1815,7 +1815,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:06 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:06 IST" duration-ms="367" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:54 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:55 IST" duration-ms="320" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1859,7 +1859,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:06 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:07 IST" duration-ms="351" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:55 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:55 IST" duration-ms="283" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1903,7 +1903,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:07 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:07 IST" duration-ms="445" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:55 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:55 IST" duration-ms="322" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1947,7 +1947,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:07 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:07 IST" duration-ms="334" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:55 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:56 IST" duration-ms="303" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1991,7 +1991,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:07 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:08 IST" duration-ms="381" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:56 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:56 IST" duration-ms="479" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2035,7 +2035,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:08 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:08 IST" duration-ms="338" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:56 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:56 IST" duration-ms="336" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2079,7 +2079,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:08 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:09 IST" duration-ms="355" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:56 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:57 IST" duration-ms="328" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2123,7 +2123,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:09 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:09 IST" duration-ms="324" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:57 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:57 IST" duration-ms="422" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2167,7 +2167,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:09 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:09 IST" duration-ms="329" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:57 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:57 IST" duration-ms="290" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2211,7 +2211,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:09 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:10 IST" duration-ms="359" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:57 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:58 IST" duration-ms="282" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2255,7 +2255,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:10 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:10 IST" duration-ms="348" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:58 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:58 IST" duration-ms="285" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2299,7 +2299,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:10 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:10 IST" duration-ms="351" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:58 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:58 IST" duration-ms="298" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2343,7 +2343,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:10 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:11 IST" duration-ms="396" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:58 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:59 IST" duration-ms="371" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2387,7 +2387,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:11 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:11 IST" duration-ms="318" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:59 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:59 IST" duration-ms="323" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2431,7 +2431,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:11 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:11 IST" duration-ms="325" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:59 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:31:59 IST" duration-ms="354" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2475,7 +2475,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:11 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:12 IST" duration-ms="417" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:31:59 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:00 IST" duration-ms="308" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2519,7 +2519,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:12 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:12 IST" duration-ms="341" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:00 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:00 IST" duration-ms="290" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2563,7 +2563,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:12 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:12 IST" duration-ms="297" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:00 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:00 IST" duration-ms="256" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2607,7 +2607,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:12 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:13 IST" duration-ms="394" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:00 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:00 IST" duration-ms="290" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2651,7 +2651,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:13 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:13 IST" duration-ms="386" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:00 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:01 IST" duration-ms="358" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2695,7 +2695,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:13 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:14 IST" duration-ms="378" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:01 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:01 IST" duration-ms="425" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2739,7 +2739,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:14 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:14 IST" duration-ms="399" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:01 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:02 IST" duration-ms="322" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2783,7 +2783,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:14 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:14 IST" duration-ms="322" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:02 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:02 IST" duration-ms="400" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2827,7 +2827,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:14 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:15 IST" duration-ms="368" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:02 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:02 IST" duration-ms="322" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2871,7 +2871,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:15 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:15 IST" duration-ms="318" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:02 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:03 IST" duration-ms="318" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2915,7 +2915,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:15 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:15 IST" duration-ms="311" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:03 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:03 IST" duration-ms="402" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2959,7 +2959,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:15 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:16 IST" duration-ms="319" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:03 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:03 IST" duration-ms="337" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3003,7 +3003,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:16 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:16 IST" duration-ms="307" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:03 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:04 IST" duration-ms="294" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3047,7 +3047,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:16 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:16 IST" duration-ms="328" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:04 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:04 IST" duration-ms="346" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3091,7 +3091,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:16 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:17 IST" duration-ms="375" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:04 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:04 IST" duration-ms="290" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3135,7 +3135,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:17 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:17 IST" duration-ms="310" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:04 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:05 IST" duration-ms="282" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3179,7 +3179,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:17 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:17 IST" duration-ms="328" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:05 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:05 IST" duration-ms="302" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3223,7 +3223,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:17 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:18 IST" duration-ms="298" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:05 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:05 IST" duration-ms="299" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3267,7 +3267,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:18 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:18 IST" duration-ms="310" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:05 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:06 IST" duration-ms="350" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3311,7 +3311,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:18 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:18 IST" duration-ms="303" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:06 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:06 IST" duration-ms="324" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3355,7 +3355,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:18 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:19 IST" duration-ms="313" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:06 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:06 IST" duration-ms="332" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3399,7 +3399,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:19 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:19 IST" duration-ms="298" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:06 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:07 IST" duration-ms="296" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3443,7 +3443,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:19 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:19 IST" duration-ms="301" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:07 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:07 IST" duration-ms="318" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3487,7 +3487,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:19 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:20 IST" duration-ms="307" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:07 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:07 IST" duration-ms="277" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3531,7 +3531,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:20 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:20 IST" duration-ms="428" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:07 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:07 IST" duration-ms="315" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3575,7 +3575,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:20 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:20 IST" duration-ms="298" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:07 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:08 IST" duration-ms="491" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3619,7 +3619,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:20 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:21 IST" duration-ms="292" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:08 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:08 IST" duration-ms="307" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3663,7 +3663,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:21 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:21 IST" duration-ms="314" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:08 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:09 IST" duration-ms="292" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3707,7 +3707,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:21 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:21 IST" duration-ms="310" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:09 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:09 IST" duration-ms="276" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3751,7 +3751,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:21 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:21 IST" duration-ms="298" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:09 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:09 IST" duration-ms="290" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3795,7 +3795,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:21 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:22 IST" duration-ms="529" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:09 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:09 IST" duration-ms="287" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3839,7 +3839,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:22 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:22 IST" duration-ms="371" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:09 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:10 IST" duration-ms="277" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3883,7 +3883,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:22 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:23 IST" duration-ms="304" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:10 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:10 IST" duration-ms="341" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3927,7 +3927,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:23 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:23 IST" duration-ms="313" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:10 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:10 IST" duration-ms="368" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -3971,7 +3971,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:23 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:23 IST" duration-ms="327" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:10 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:11 IST" duration-ms="318" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -4015,7 +4015,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:23 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:24 IST" duration-ms="337" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:11 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:11 IST" duration-ms="511" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -4059,7 +4059,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:24 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:24 IST" duration-ms="319" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:11 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:12 IST" duration-ms="279" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -4103,7 +4103,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:24 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:24 IST" duration-ms="303" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:12 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:12 IST" duration-ms="295" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -4147,7 +4147,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:24 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:25 IST" duration-ms="314" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:12 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:12 IST" duration-ms="311" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -4191,7 +4191,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:25 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:25 IST" duration-ms="303" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:12 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:12 IST" duration-ms="334" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -4235,7 +4235,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:25 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:25 IST" duration-ms="319" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:12 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:13 IST" duration-ms="280" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -4279,7 +4279,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:25 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:26 IST" duration-ms="283" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:13 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:13 IST" duration-ms="342" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -4323,7 +4323,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:26 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:26 IST" duration-ms="307" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:13 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:13 IST" duration-ms="339" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -4367,7 +4367,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:26 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-01T20:22:26 IST" duration-ms="299" status="FAIL">
+        <test-method signature="Rl3PlCreateProductAPI(java.lang.String)[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:13 IST" name="Rl3PlCreateProductAPI" data-provider="allusers" finished-at="2024-11-02T21:32:14 IST" duration-ms="413" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -4411,11 +4411,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rl3PlCreateProductAPI -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:apiTestCases.RL3PLApi@192d43ce]" started-at="2024-11-01T20:22:26 IST" name="teardown" finished-at="2024-11-01T20:22:26 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:apiTestCases.RL3PLApi@5f058f00]" started-at="2024-11-02T21:32:14 IST" name="teardown" finished-at="2024-11-02T21:32:14 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- apiTestCases.RL3PLApi -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
