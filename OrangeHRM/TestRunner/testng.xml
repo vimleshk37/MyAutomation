@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="10">
+	<listeners>
+		<listener class-name="listeners.ListenerTest"></listener>
+	</listeners>
+	<test thread-count="5" name="Test with chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<groups>
+			<run>
+				<include name="login"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testCases.OrangeHRMTestCase" />
+		</classes>
+	</test> <!--Test -->
+
+	<test name="Test with firefox" thread-count="5">
+		<parameter name="browser" value="firefox"></parameter>
+		<groups>
+			<run>
+				<include name="smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testCases.OrangeHRMTestCase" />
+		</classes>
+
+	</test>
+	
+	<!--	<test name="Test with MicrosoftEdge" thread-count="5">
+		<parameter name="browser" value="MicrosoftEdge"></parameter>
+		<groups>
+			<run>
+				<include name="smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testCases.OrangeHRMTestCase" />
+		</classes>
+
+	</test>-->
+</suite> <!--Suite -->
