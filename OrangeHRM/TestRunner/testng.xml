@@ -29,7 +29,7 @@
 		</classes>
 
 	</test>
-	
+
 	<!--	<test name="Test with MicrosoftEdge" thread-count="5">
 		<parameter name="browser" value="MicrosoftEdge"></parameter>
 		<groups>

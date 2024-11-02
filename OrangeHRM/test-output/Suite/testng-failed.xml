@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="10" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<suite thread-count="10" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="listeners.ListenerTest"/>
   </listeners>
-  <test thread-count="10" parallel="tests" name="Test with chrome(failed)">
-    <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="login"/>
-        <include name="regression"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="testCases.OrangeHRMTestCase">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="LoginToHRM" invocation-numbers="0"/>
-          <include name="AddEmp"/>
-        </methods>
-      </class> <!-- testCases.OrangeHRMTestCase -->
-    </classes>
-  </test> <!-- Test with chrome(failed) -->
-  <test thread-count="10" parallel="tests" name="Test with firefox(failed)">
+  <test thread-count="10" name="Test with firefox(failed)">
     <parameter name="browser" value="firefox"/>
     <groups>
       <run>
@@ -35,7 +16,7 @@
         <methods>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="LoginToHRM" invocation-numbers="0"/>
+          <include name="LoginToHRM"/>
           <include name="AddEmp"/>
         </methods>
       </class> <!-- testCases.OrangeHRMTestCase -->

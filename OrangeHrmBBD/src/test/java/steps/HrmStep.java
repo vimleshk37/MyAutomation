@@ -26,7 +26,7 @@ public class HrmStep {
 	}
 	@AfterAll
 	public static void teardown() {
-		// driver.quit();
+		driver.quit();
 		System.out.println("Browser is Closed ");
 	}
 

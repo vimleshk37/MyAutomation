@@ -13,7 +13,6 @@ import org.testng.annotations.Parameters;
 public class BaseTestRemote {
 	public static RemoteWebDriver driver;
 
-	@SuppressWarnings("deprecation")
 	@Parameters("browser")
 	@BeforeTest(alwaysRun = true)
 	public void setup(String browser) throws MalformedURLException {

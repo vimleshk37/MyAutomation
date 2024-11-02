@@ -6,12 +6,12 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import base.BaseTestRemote;
+import base.BaseTest;
 import pages.LoginPage;
 import pages.PIM;
 import utilities.HRMDataProvider;
 @Listeners(listeners.ListenerTest.class)
-public class OrangeHRMTestCase extends BaseTestRemote {
+public class OrangeHRMTestCase extends BaseTest{
 	@Test(dataProvider = "credentials", groups = { "login",
 			"smoke" } ,enabled = true, dataProviderClass = HRMDataProvider.class)
 	public void LoginToHRM(String username, String password) {

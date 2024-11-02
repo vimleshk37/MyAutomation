@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test with firefox</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Nov 02 01:54:48 IST 2024</td>
+<td>Started on:</td><td>Sat Nov 02 21:35:17 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>14 seconds (14193 ms)</td>
+<tr><td>Total time:</td><td>17 seconds (17711 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>smoke </td>
 </tr><tr>
@@ -68,99 +68,6 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testCases.OrangeHRMTestCase.teardown()'><b>teardown</b><br>Test class: testCases.OrangeHRMTestCase</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [4a8e6351-9cc5-4911-9444-2852dae7b7bc, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0, moz:accessibilityChecks: false, moz:buildID: 20241021175835, moz:debuggerAddress: 127.0.0.1:38017, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9316, moz:profile: C:\Users\Vimlesh\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:38017/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 4a8e6351-9cc5-4911-9444-2852dae7b7bc
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:435)
-	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:397)
-	at base.BaseTest.teardown(BaseTest.java:37)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke &quot;java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)&quot; because &quot;this.client&quot; is null
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
-	... 23 more
-Caused by: java.lang.NullPointerException: Cannot invoke &quot;java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)&quot; because &quot;this.client&quot; is null
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	... 3 more
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace972113102", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace972113102'><pre>org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [4a8e6351-9cc5-4911-9444-2852dae7b7bc, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0, moz:accessibilityChecks: false, moz:buildID: 20241021175835, moz:debuggerAddress: 127.0.0.1:38017, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9316, moz:profile: C:\Users\Vimlesh\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:38017/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 4a8e6351-9cc5-4911-9444-2852dae7b7bc
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:435)
-	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:397)
-	at base.BaseTest.teardown(BaseTest.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-	at org.testng.TestRunner.afterRun(TestRunner.java:877)
-	at org.testng.TestRunner.run(TestRunner.java:599)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke &quot;java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)&quot; because &quot;this.client&quot; is null
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
-	... 23 more
-Caused by: java.lang.NullPointerException: Cannot invoke &quot;java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)&quot; because &quot;this.client&quot; is null
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	... 3 more
-</pre></div></td>
-<td>0</td>
-<td>testCases.OrangeHRMTestCase@3c41ed1d</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -168,15 +75,15 @@ Caused by: java.lang.NullPointerException: Cannot invoke &quot;java.net.http.Htt
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.OrangeHRMTestCase.LoginToHRM()'><b>LoginToHRM</b><br>Test class: testCases.OrangeHRMTestCase<br>Parameters: Admin, admin123</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+<td title='testCases.OrangeHRMTestCase.AddEmp()'><b>AddEmp</b><br>Test class: testCases.OrangeHRMTestCase</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;div class=&quot;oxd-switch-wrapper&quot;&gt; is not clickable at point (743,435) because another element &lt;div class=&quot;oxd-form-loader&quot;&gt; obscures it
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [4a8e6351-9cc5-4911-9444-2852dae7b7bc, sendKeysToElement {value=[Ljava.lang.CharSequence;@274493b4, id=cad03e6d-cac2-4c99-8d8a-a44ccb7da65d}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0, moz:accessibilityChecks: false, moz:buildID: 20241021175835, moz:debuggerAddress: 127.0.0.1:38017, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9316, moz:profile: C:\Users\Vimlesh\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:38017/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (4a8e6351-9cc5-4911-9444-2852dae7b7bc)] -&gt; xpath: //input[@name=&apos;username&apos;]]
-Session ID: 4a8e6351-9cc5-4911-9444-2852dae7b7bc
+Command: [99de8fe1-7acf-4035-bbc6-9b20833af686, clickElement {id=2350def3-cee7-484d-a552-58f3a072750b}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0, moz:accessibilityChecks: false, moz:buildID: 20241021175835, moz:debuggerAddress: 127.0.0.1:34377, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9420, moz:profile: C:\Users\Vimlesh\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34377/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (99de8fe1-7acf-4035-bbc6-9b20833af686)] -&gt; xpath: //div[@class=&apos;oxd-switch-wrapper&apos;]]
+Session ID: 99de8fe1-7acf-4035-bbc6-9b20833af686
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -185,23 +92,19 @@ Session ID: 4a8e6351-9cc5-4911-9444-2852dae7b7bc
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-	at pages.LoginPage.HrmLogin(LoginPage.java:22)
-	at testCases.OrangeHRMTestCase.LoginToHRM(OrangeHRMTestCase.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pages.PIM.enableCreateLogin(PIM.java:44)
+	at testCases.OrangeHRMTestCase.AddEmp(OrangeHRMTestCase.java:42)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace895601393", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace895601393'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1318475957", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1318475957'><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;div class=&quot;oxd-switch-wrapper&quot;&gt; is not clickable at point (743,435) because another element &lt;div class=&quot;oxd-form-loader&quot;&gt; obscures it
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [4a8e6351-9cc5-4911-9444-2852dae7b7bc, sendKeysToElement {value=[Ljava.lang.CharSequence;@274493b4, id=cad03e6d-cac2-4c99-8d8a-a44ccb7da65d}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0, moz:accessibilityChecks: false, moz:buildID: 20241021175835, moz:debuggerAddress: 127.0.0.1:38017, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9316, moz:profile: C:\Users\Vimlesh\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:38017/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (4a8e6351-9cc5-4911-9444-2852dae7b7bc)] -&gt; xpath: //input[@name=&apos;username&apos;]]
-Session ID: 4a8e6351-9cc5-4911-9444-2852dae7b7bc
+Command: [99de8fe1-7acf-4035-bbc6-9b20833af686, clickElement {id=2350def3-cee7-484d-a552-58f3a072750b}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0, moz:accessibilityChecks: false, moz:buildID: 20241021175835, moz:debuggerAddress: 127.0.0.1:34377, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9420, moz:profile: C:\Users\Vimlesh\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34377/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (99de8fe1-7acf-4035-bbc6-9b20833af686)] -&gt; xpath: //div[@class=&apos;oxd-switch-wrapper&apos;]]
+Session ID: 99de8fe1-7acf-4035-bbc6-9b20833af686
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -213,9 +116,9 @@ Session ID: 4a8e6351-9cc5-4911-9444-2852dae7b7bc
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-	at pages.LoginPage.HrmLogin(LoginPage.java:22)
-	at testCases.OrangeHRMTestCase.LoginToHRM(OrangeHRMTestCase.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pages.PIM.enableCreateLogin(PIM.java:44)
+	at testCases.OrangeHRMTestCase.AddEmp(OrangeHRMTestCase.java:42)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -230,51 +133,34 @@ Session ID: 4a8e6351-9cc5-4911-9444-2852dae7b7bc
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>2</td>
-<td>testCases.OrangeHRMTestCase@3c41ed1d</td></tr>
+<td>3</td>
+<td>testCases.OrangeHRMTestCase@5656be13</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.OrangeHRMTestCase.AddEmp()'><b>AddEmp</b><br>Test class: testCases.OrangeHRMTestCase</td>
-<td><div><pre>java.lang.Throwable: Method OrangeHRMTestCase.AddEmp()[pri:0, instance:testCases.OrangeHRMTestCase@3c41ed1d] depends on not successfully finished methods
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2091564130", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2091564130'><pre>java.lang.Throwable: Method OrangeHRMTestCase.AddEmp()[pri:0, instance:testCases.OrangeHRMTestCase@3c41ed1d] depends on not successfully finished methods
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
-<td>testCases.OrangeHRMTestCase@3c41ed1d</td></tr>
+<td title='testCases.OrangeHRMTestCase.LoginToHRM()'><b>LoginToHRM</b><br>Test class: testCases.OrangeHRMTestCase<br>Parameters: Admin, admin123</td>
+<td></td>
+<td>4</td>
+<td>testCases.OrangeHRMTestCase@5656be13</td></tr>
 </table><p>
 </body>
 </html>
