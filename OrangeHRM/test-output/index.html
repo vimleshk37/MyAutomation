@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,8 +21,7 @@
      -->
   </head>
 
-  <body>
-    <div class="top-banner-root">
+  <body>    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
@@ -158,10 +157,10 @@
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [99de8fe1-7acf-4035-bbc6-9b20833af686, clickElement {id=2350def3-cee7-484d-a552-58f3a072750b}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0, moz:accessibilityChecks: false, moz:buildID: 20241021175835, moz:debuggerAddress: 127.0.0.1:34377, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9420, moz:profile: C:\Users\Vimlesh\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34377/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (99de8fe1-7acf-4035-bbc6-9b20833af686)] -&gt; xpath: //div[@class=&apos;oxd-switch-wrapper&apos;]]
-Session ID: 99de8fe1-7acf-4035-bbc6-9b20833af686
+Command: [cde95c74-3464-472a-bbf1-86286bae964b, clickElement {id=e0d1ceed-b345-439e-b33e-31022674cbb0}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0, moz:accessibilityChecks: false, moz:buildID: 20241021175835, moz:debuggerAddress: 127.0.0.1:49084, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6884, moz:profile: C:\Users\Vimlesh\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:49084/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (cde95c74-3464-472a-bbf1-86286bae964b)] -&gt; xpath: //div[@class=&apos;oxd-switch-wrapper&apos;]]
+Session ID: cde95c74-3464-472a-bbf1-86286bae964b
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -174,7 +173,8 @@ Session ID: 99de8fe1-7acf-4035-bbc6-9b20833af686
 	at pages.PIM.enableCreateLogin(PIM.java:44)
 	at testCases.OrangeHRMTestCase.AddEmp(OrangeHRMTestCase.java:42)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames
+	at testRunner.RunTestNGXMLinMain.main(RunTestNGXMLinMain.java:16)
+... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -198,7 +198,7 @@ Session ID: 99de8fe1-7acf-4035-bbc6-9b20833af686
                   <a name="LoginToHRM(Admin, admin123)">
                   </a> <!-- LoginToHRM(Admin, admin123) -->
                   <span class="method-name">LoginToHRM</span>
-                  <span class="parameters">(Admin, admin123)</span>
+                  <span class="parameters">(Admin,admin123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -206,7 +206,7 @@ Session ID: 99de8fe1-7acf-4035-bbc6-9b20833af686
                   <a name="LoginToHRM(Admin, admin123)">
                   </a> <!-- LoginToHRM(Admin, admin123) -->
                   <span class="method-name">LoginToHRM</span>
-                  <span class="parameters">(Admin, admin123)</span>
+                  <span class="parameters">(Admin,admin123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -319,24 +319,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LoginToHRM')
 data.setCell(0, 2, 'testCases.OrangeHRMTestCase')
-data.setCell(0, 3, 4102);
+data.setCell(0, 3, 4422);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'AddEmp')
 data.setCell(1, 2, 'testCases.OrangeHRMTestCase')
-data.setCell(1, 3, 3734);
+data.setCell(1, 3, 4256);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'AddEmp')
 data.setCell(2, 2, 'testCases.OrangeHRMTestCase')
-data.setCell(2, 3, 3453);
+data.setCell(2, 3, 4240);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'LoginToHRM')
 data.setCell(3, 2, 'testCases.OrangeHRMTestCase')
-data.setCell(3, 3, 2539);
+data.setCell(3, 3, 2358);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -369,33 +369,33 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">LoginToHRM(Admin, admin123)</span>
-                <span class="method-start">6246 ms</span>
+                <span class="method-start">8750 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">AddEmp</span>
-                <span class="method-start">8800 ms</span>
+                <span class="method-start">11130 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">12539 ms</span>
+                <span class="method-start">15372 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">setup(firefox)</span>
-                <span class="method-start">12914 ms</span>
+                <span class="method-start">15825 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">LoginToHRM(Admin, admin123)</span>
-                <span class="method-start">21618 ms</span>
+                <span class="method-start">27101 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">AddEmp</span>
-                <span class="method-start">25730 ms</span>
+                <span class="method-start">31533 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">29197 ms</span>
+                <span class="method-start">35790 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

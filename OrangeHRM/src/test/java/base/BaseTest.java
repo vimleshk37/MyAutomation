@@ -8,6 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class BaseTest {
@@ -15,7 +16,7 @@ public class BaseTest {
 
 	@Parameters("browser")
 	@BeforeTest(alwaysRun = true)
-	public void setup(String browser) throws IOException {
+	public void setup(@Optional("chrome") String browser) throws IOException {
 		if (browser.equals("chrome")) {
 			driver = new ChromeDriver();
 			System.out.println(browser + " Browser is launched");
