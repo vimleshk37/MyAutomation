@@ -30,8 +30,8 @@
 
 	</test>
 
-	<!--	<test name="Test with MicrosoftEdge" thread-count="5">
-		<parameter name="browser" value="MicrosoftEdge"></parameter>
+		<test name="Test with MicrosoftEdge" thread-count="5">
+		<parameter name="browser" value="edge"></parameter>
 		<groups>
 			<run>
 				<include name="smoke"></include>
@@ -41,5 +41,5 @@
 			<class name="testCases.OrangeHRMTestCase" />
 		</classes>
 
-	</test>-->
+	</test>
 </suite> <!--Suite -->
