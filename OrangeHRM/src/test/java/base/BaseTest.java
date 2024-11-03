@@ -21,7 +21,7 @@ public class BaseTest {
 			driver = new ChromeDriver();
 			System.out.println(browser + " Browser is launched");
 		}
-		if (browser.equals("edge")) {
+		if (browser.equals("MicrosoftEdge")) {
 			driver = new EdgeDriver();
 			System.out.println(browser + " Browser is launched");
 		}

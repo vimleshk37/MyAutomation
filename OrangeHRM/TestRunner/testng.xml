@@ -31,7 +31,7 @@
 	</test>
 
 		<test name="Test with MicrosoftEdge" thread-count="5">
-		<parameter name="browser" value="edge"></parameter>
+		<parameter name="browser" value="MicrosoftEdge"></parameter>
 		<groups>
 			<run>
 				<include name="smoke"></include>
